@@ -11,7 +11,7 @@ import "../styles/login.css";
 
 function Login() {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate();a
 
   const [email, setEmail] = useState("");
 
@@ -31,6 +31,7 @@ function Login() {
 
   return (
     <div className="login-page">
+
 
       <div className="login-card">
 
