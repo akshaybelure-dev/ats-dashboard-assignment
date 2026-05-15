@@ -11,7 +11,7 @@ import "../styles/login.css";
 
 function Login() {
 
-  const navigate = useNavigate();a
+  const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
 

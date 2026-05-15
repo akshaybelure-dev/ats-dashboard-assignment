@@ -1,4 +1,4 @@
-import "../styles/summarycard.css";
+import "../styles/summaryCard.css";
 import { motion } from "framer-motion";
 
 function SummaryCard({

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import "../styles/candidatecard.css";
+import "../styles/candidateCard.css";
 
 function CandidateCard({ candidate }) {
   return (
