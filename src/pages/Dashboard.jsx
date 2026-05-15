@@ -1,5 +1,5 @@
 import DashboardLayout from "../layouts/DashboardLayout";
-import SummaryCard from "../components/SummaryCard";
+import SummaryCard from "../components/summaryCard";
 import CandidateCard from "../components/CandidateCard";
 import {
   Users,
