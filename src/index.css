@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+
+  --bg-color:
+    linear-gradient(
+      135deg,
+      #f8fafc,
+      #eef2ff
+    );
+
+  --card-bg: white;
+
+  --text-primary: #111827;
+
+  --text-secondary: #6b7280;
+
+  --border-color: #e5e7eb;
+
+}
+
+.dark {
+
+  --bg-color:
+    linear-gradient(
+      135deg,
+      #0f172a,
+      #111827
+    );
+
+  --card-bg: #1e293b;
+
+  --text-primary: #f8fafc;
+
+  --text-secondary: #cbd5e1;
+
+  --border-color: #334155;
+
+}
+
+body {
+  background: var(--bg-color);
+
+  color: var(--text-primary);
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+button,
+input {
+  font-family: inherit;
+}

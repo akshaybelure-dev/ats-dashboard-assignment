@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: var(--bg-color);
+
+  transition:
+    background 0.3s ease,
+    margin-left 0.3s ease;
+}
+
+.page-content {
+  padding: 32px;
+
+  max-width: 1400px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .page-content {
+    padding: 20px;
+  }
+
+}

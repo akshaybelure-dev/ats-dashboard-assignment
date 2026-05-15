@@ -1,0 +1,171 @@
+.candidate-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.candidate-card {
+  background: var(--card-bg);
+
+  padding: 20px 24px;
+
+  border-radius: 24px;
+
+  border: 1px solid var(--border-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.04);
+
+  margin-bottom: 10px;
+}
+.candidate-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 12px 24px rgba(0,0,0,0.08);
+}
+
+.candidate-left {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.candidate-avatar {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.candidate-content h2 {
+  font-size: 22px;
+
+ color: var(--text-primary);
+
+  margin-bottom: 6px;
+}
+
+.candidate-content p {
+  color: var(--text-secondary);
+
+  margin-bottom: 14px;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+
+.skill-tag {
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  background: #eef2ff;
+
+  color: #4338ca;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.candidate-right {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 14px;
+}
+
+.score-circle {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #7c3aed
+    );
+
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.status {
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.selected {
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #22c55e
+    );
+}
+
+.reviewing {
+  background:
+    linear-gradient(
+      135deg,
+      #f59e0b,
+      #f97316
+    );
+}
+
+.rejected {
+  background:
+    linear-gradient(
+      135deg,
+      #ef4444,
+      #dc2626
+    );
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .candidate-card {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 20px;
+  }
+
+  .candidate-right {
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}

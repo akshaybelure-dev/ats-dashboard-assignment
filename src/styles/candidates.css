@@ -1,0 +1,65 @@
+.candidates-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 32px;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+.candidates-header h1 {
+  font-size: 36px;
+  color: var(--text-primary);
+}
+
+.candidates-header input {
+  width: 320px;
+
+  height: 52px;
+
+  padding: 0 18px;
+
+  border-radius: 16px;
+
+  border: 1px solid #dbe3ee;
+
+ background: var(--card-bg);
+
+  font-size: 15px;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.04);
+}
+
+.candidates-header input:focus {
+  border-color: #7c3aed;
+
+  box-shadow:
+    0 0 0 4px rgba(124,58,237,0.12);
+}
+
+.candidates-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 28px;
+
+  margin-top: 30px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .candidates-header input {
+    width: 100%;
+  }
+
+}
