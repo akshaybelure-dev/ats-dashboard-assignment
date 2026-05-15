@@ -1,7 +1,7 @@
 import person1 from "../assets/avatars/person1.jpg";
-import person2 from "../assets/avatars/person2.jpg";
+import person5 from "../assets/avatars/person5.jpg";
 import person3 from "../assets/avatars/person3.jpg";
-import person4 from "../assets/avatars/person4.jpg";
+import person6 from "../assets/avatars/person6.jpg";
 
 export const candidates = [
   {
@@ -26,7 +26,7 @@ export const candidates = [
     skills: ["Figma", "UI Design", "Adobe XD"],
 
     avatar:
-      person2,
+      person5,
   },
 
   {
@@ -68,7 +68,7 @@ export const candidates = [
     "MongoDB"
   ],
 
-  avatar:person4,
+  avatar:person6,
 },
 {
   id: 6,
