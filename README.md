@@ -1,16 +1,46 @@
-# React + Vite
+# ATS Dashboard Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a responsive ATS (Applicant Tracking System) Dashboard built using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project includes:
 
-## React Compiler
+- Dashboard page
+- Jobs page
+- Candidates page
+- Candidate details page
+- Responsive sidebar
+- Dark mode
+- Routing using React Router
+- JSON-based dynamic rendering
+- Reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router DOM
+- CSS
+
+---
+
+## Features
+
+- Responsive UI
+- Dark/Light mode toggle
+- Reusable cards and layout components
+- Dynamic candidate and jobs data
+- Sidebar navigation with active state
+- Mobile-friendly layout
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/akshaybelure-dev/ats-dashboard-assignment.git
